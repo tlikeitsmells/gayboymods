@@ -1,8 +1,6 @@
 <settings>
     <category label="General">
-        <setting id="period" label="Period" values="ever|year|month" default="ever" type="labelenum" visible="true"/>
-        <setting id="sortby" label="Sort Method" values="default|hits" default="hits" type="labelenum" visible="true"/>
-        <!-- OLD Sort methods XNXX removed: |uploaddate|rating|views|length|relevance -->
+        <setting id="sortby" label="Sort Method" values="uploaddate|rating|views|length|relevance" default="uploaddate" type="labelenum" visible="true"/>
         <setting id="filterorientation" label="Sexual Orientation Filter" values="gay|straight|shemale" default="straight" type="labelenum" visible="true"/>
         <setting default="" id="lastsearch" label="Last Search" type="text" values="" visible="true"/>
         <setting default="" id="downloadpath" label="Download Path" type="folder" values="" visible="true"/>

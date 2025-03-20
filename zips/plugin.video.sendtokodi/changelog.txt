@@ -1,9 +1,0 @@
-0.1.0
-* Added additional Resolver functionality using script.module.resolveurl and plugin.video.resolveurl-tester as player
-* YouTubeDL attempted first and upon failure ResolveURL-Tester used to play the URL using ResolveURL module
-* script.module.resolveurl by JSergio123 @ https://github.com/jsergio123/script.module.resolveurl
-* plugin.video.resolveurl-tester by Twilight0 @ https://github.com/Twilight0/plugin.video.resolveurl-tester
-* Updated 2019-09-02
-
-0.0.1
-* Initial Release

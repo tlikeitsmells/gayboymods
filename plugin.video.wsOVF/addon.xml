@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.wsOVF"
-version="1.1.92"
-name="SWatchSeriesTO"
+version="1.1.1"
+name="WatchSeriesOVF"
 provider-name="moedje">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.urlquick" optional="true"/>
+  <import addon="script.module.simpleplugin" version="1.6+" optional="true"/>
   <import addon="script.module.youtube.dl" optional="true"/>
-  <import addon="script.module.resolveurl" optional="true"/>
+  <import addon="script.module.resolveurl" version="5.0.00+" optional="true"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">SWatchSeries.TO/Watchseries.OVF</summary>
-  <description lang="en">[B]V1.2.0[/B] Added new Search History to store previous searches as YouTube addon does. Plan to improve search to recognize Seasons in next update. Currently you can access a specific season by searching for the exxact show name and season number as it appears in the URL after swatchseries.to/serie/[B]show_name/season-2[/B] in the search put: show_name/season-2 to get season 2 episodes. Hope to automate this in future updates but it's a work around. Also Partially renamed to by adding SwatchSeries.TO in the name as it's been the URL for a while now. Actual plugin name still wsOVF. Updated the Simpleplugin Framework to new Python3 version, amazing developer RomanVM many thanks!!
-    V1.1.0 Renamed from old TVSeries4U addon which died long ago. Fixed changes made to watchseries websites that broke addon. Uses the ROMANVM SimplePlugin micro-framework to scrape links from watchseries.ovf</description>
+  <summary lang="en">WatchSeries.OVF</summary>
+  <description lang="en">[B]V1.1.0[/B]Renamed from old TVSeries4U addon which died long ago. Fixed changes made to watchseries websites that broke addon. Uses the ROMANVM SimplePlugin micro-framework to scrape links from watchseries.ovf</description>
   <disclaimer lang="en">Not to be used for any illegal activities.</disclaimer>
 </extension>
 </addon>
