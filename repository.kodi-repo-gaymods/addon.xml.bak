@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon id="gaymods.repository.kodi-repo-gaymods.2" name="Gay Addons Repo" version="2.0.69" provider-name="tlikeitsmells">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi-repo-gaymods" name="Gay Addons Repo" version="2.0.69" provider-name="tlikeitsmells">
         <extension point="Gay Addons Repo" name="xbmc.addon.repository">
               <dir>
                 <info compressed="false">https://raw.githubusercontent.com/tlikeitsmells/gayboymods/kodi-repo-gaymods/master/addons.xml</info>

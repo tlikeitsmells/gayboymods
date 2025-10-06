@@ -5,6 +5,11 @@
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
+<dir>
+            <info compressed="false">https://raw.githubusercontent.com/tlikeitsmells/gayboymods/mine/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tlikeitsmells/gayboymods/mine/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tlikeitsmells/gayboymods/mine/repo/zips/</datadir>
+        </dir>
         <summary lang="en_GB">Python Module URLQuick v0.9.4 by Willforde modified by Moedje</summary>
         <description lang="en_GB">[B]V0.9.4 FIXED module wouldn't install on Fire Stick but this version should work now from moedje repo[/B] A light-weight http client with requests like interface. Featuring persistent connections and caching support.
         https://github.com/willforde/urlquick

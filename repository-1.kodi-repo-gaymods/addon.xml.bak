@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi-repo-gaymods" name="Gay Addons Repo" provider-name="moedje" version="2.0.69">
+        <extension name="Gay Addons Repo" point="xbmc.addon.repository">
+                <info compressed="false">https://raw.githubusercontent.com/moedje/kodi-repo-gaymods/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/moedje/kodi-repo-gaymods/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/moedje/kodi-repo-gaymods/master</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Gay oriented addon's for Kodi/XBMC. Plugin.Video.hubGAY addon for gay and straight porn from HUB Traffic and more. Plugin.Video.WSonline a Watchseries-Online TV Addon. </summary>
+                <description>Home of plugin.video.hubGAY a porn addon focused on the Hub Traffic sites but with additional sites being added such as Motherless, Porkytube, and Tumblr. Also there is a STRAIGHT settings so it can be gay or straight, kinda bi I guess! ;) The rest are mainly gay oriented addons for XBMC/Kodi or other gay relatred content such as movie scrapers. WORK IN PROGRESS i never intended this to be used by many people it was all jut to make my personal quest for porn easier. Addons by antigenx, xbmcadult, and others with gaymods by moedje. Many of these are works in progress, or have only minor changes to them to help filter out straight porn or display gay porn categories. They include many various sources and AGX repo was first that I saw with some exclusive gay addons which I added into this repo and modified a bit. There is also a random TV plugin called WSOnline which is for the website Watchseries-Online and it scrapes the latest 250 shows and sources for a show and has searching. It was really just a personal thing but others may find it useful. The main plugins that are the most solid in this repo is the plugin.video.hubGAY and the non gay porn related plugin.video.wsonline for Watchseries-Online website.</description>
+                <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
